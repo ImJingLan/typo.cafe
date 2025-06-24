@@ -31,7 +31,7 @@ function getCustomData() {
 
 function getPostItem(post: Post) {
   const postItem = {
-    link: `/posts/${post.id}/`,
+    link: `/${post.id}/`,
     author: post.data.author ?? author,
     content: getPostContent(post),
     title: post.data.title,

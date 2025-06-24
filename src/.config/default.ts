@@ -5,28 +5,16 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: '活版印字',
-    subtitle: 'Typography',
-    author: 'Moeyua',
-    description: 'Rediscory the beauty of typography',
-    website: 'https://astro-theme-typography.vercel.app/',
+    title: '时笺',
+    subtitle: 'TYPOCAFE',
+    author: '时笺 Xihu',
+    description: '以墨痕定格流年，泛黄纸页间低语着未逝的春秋',
+    website: 'https://typo.cafe',
     pageSize: 5,
     socialLinks: [
       {
-        name: 'github',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
         name: 'rss',
         href: '/atom.xml',
-      },
-      {
-        name: 'twitter',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
       },
     ],
     navLinks: [
@@ -47,7 +35,7 @@ export const defaultConfig: ThemeConfig = {
         href: '/about',
       },
     ],
-    categoryMap: [{ name: '胡适', path: 'hu-shi' }],
+    categoryMap: [],
     footer: [
       '© %year <a target="_blank" href="%website">%author</a>',
       'Theme <a target="_blank" href="https://github.com/Moeyua/astro-theme-typography">Typography</a> by <a target="_blank" href="https://moeyua.com">Moeyua</a>',
@@ -68,11 +56,11 @@ export const defaultConfig: ThemeConfig = {
     fonts: {
       header:
         '"HiraMinProN-W6","Source Han Serif CN","Source Han Serif SC","Source Han Serif TC",serif',
-      ui: '"Source Sans Pro","Roboto","Helvetica","Helvetica Neue","Source Han Sans SC","Source Han Sans TC","PingFang SC","PingFang HK","PingFang TC",sans-serif',
+      ui: '"HiraMinProN-W6","Source Han Serif CN","Source Han Serif SC","Source Han Serif TC",serif',
     },
   },
   seo: {
-    twitter: '@moeyua13',
+    twitter: '',
     meta: [],
     link: [],
   },
@@ -84,7 +72,7 @@ export const defaultConfig: ThemeConfig = {
   },
   analytics: {
     googleAnalyticsId: '',
-    umamiAnalyticsId: '',
+    umamiAnalyticsId: '8583fb8f-d20a-4d0e-af1d-7179c6ff11c1',
   },
   latex: {
     katex: false,
