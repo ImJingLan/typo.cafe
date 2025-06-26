@@ -72,7 +72,7 @@ export const defaultConfig: ThemeConfig = {
   },
   analytics: {
     googleAnalyticsId: '',
-    umamiAnalyticsId: '8583fb8f-d20a-4d0e-af1d-7179c6ff11c1',
+    umamiAnalyticsId: '50305e3e-3522-4d9c-960c-73507d78da34',
   },
   latex: {
     katex: false,
