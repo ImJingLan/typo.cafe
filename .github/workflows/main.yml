@@ -42,16 +42,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - run: pnpm add sharp      
+
       - name: Run Astro Build
         run: pnpm astro build
-
-      - run: pnpm add sharp
-
-      - name: 部署到 Deploy 分支
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: deploy
-          folder: dist
 
       - name: 部署到 Deploy 分支
         uses: JamesIves/github-pages-deploy-action@v4
