@@ -16,6 +16,10 @@ export const defaultConfig: ThemeConfig = {
         name: 'rss',
         href: '/atom.xml',
       },
+      {
+        name: 'github',
+        href: '//github.com/The-Typo/typo.cafe',
+      },
     ],
     navLinks: [
       {
